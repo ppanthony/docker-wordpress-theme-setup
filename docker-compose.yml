@@ -27,5 +27,8 @@ services:
     volumes:
       - ./wp-content:/var/www/html/wp-content
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - db_data:/var/lib/mysql
+      - ./mysql:/var/lib/mysql
+
 volumes:
   db_data:
