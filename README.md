@@ -9,7 +9,7 @@ If you don’t have Docker and Docker Compose installed follow the steps outline
 With Docker installed and running, in Terminal:
 
 ````
-git clone https://github.com/davidyeiser/docker-wordpress-theme-setup.git
+git clone https://github.com/ppanthony/docker-wordpress-theme-setup.git
 cd docker-wordpress-theme-setup
 ````
 
