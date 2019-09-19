@@ -1,0 +1,41 @@
+body {
+	background-image:url(student/student_BG_wood.jpg);
+}
+#body {
+	background:Transparent;
+	margin-top:0;
+}
+#body .container-fluid,
+.pgheader .container-fluid {
+	background-color:white;
+}
+.pgheader {
+	border-bottom:none;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+.pgheader .blog-header .col-sm-12 {
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+#page-canvas {
+	background-image:url(student/student_BG_full.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 0%;
+}
+.ppblogwrapper {
+	border-top:0px solid #DDD !important;
+}
+.ppBlog-pageBG {
+	/*border-top:1px solid #DDD !important;*/
+}
+.main {
+	border-top:1px solid #DDD;
+	padding-top:3em;
+}
+.blog-footer {
+	background-color:white;
+}
+#sidebar {
+	border-right:none;
+}

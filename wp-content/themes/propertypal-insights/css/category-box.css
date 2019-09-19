@@ -1,0 +1,131 @@
+.category-boxes {
+  font-size: 0.9em;
+  margin-left: 0;
+}
+
+.category-boxes li {
+  margin: 1em 0;
+}
+
+.category-boxes .category-box-item {
+  padding: 8px 8px 30px 8px;
+  height: auto;
+  box-shadow: none;
+  position: relative;
+  border: none;
+  transition: all 300ms ease-in-out;
+}
+
+.lt-ie10 .category-boxes .category-box-item {
+  height:330px;
+}
+
+.category-boxes .category-box-item:hover {
+  background-color: #dedede;
+}
+
+.category-box-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  float: left;
+  max-width: 100%;
+  height: 181px;
+  display: block;
+  width: 100%;
+}
+
+.category-box-content {
+  display: inline-block;
+  padding-left: 20px;
+  float: left;
+  width: 100%;
+  padding: 0;
+  min-height: inherit;
+  position: initial;
+}
+
+.category-box-content h3 {
+  color: #EE4900;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.category-box-content p {
+  margin: 0.5em 0;
+}
+
+.category-box-content .category-box-readmore {
+  position: absolute;
+  bottom: 8px;
+  color: #EE4900;
+  text-decoration: underline;
+  bottom: 10px;
+}
+
+@media screen and (max-width:1203px) {
+
+  .category-boxes {
+    margin: 0;
+  }
+
+  .category-boxes .category-boxes-list {
+    display: block;
+  }
+
+  .category-boxes li {
+    width: 100%;
+    max-width: 100%;
+    flex: none;
+    display: list-item;
+  }
+  
+  .category-boxes {
+    padding: 0 15px;
+  }
+
+  .index {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .category-boxes .category-box-item {
+    padding: 8px;
+  }
+  
+  .category-boxes .category-box-item:after {
+    display: table;
+    content: '';
+    clear: both;
+  }
+
+  .category-box-content {
+    float: right;
+    min-height: unset;
+    width: 67%;
+    display: inline-block;
+  }
+  
+  .category-box-content .category-box-readmore {
+    position: static;
+    bottom: auto;
+  }
+  
+  .category-box-content h3 {
+    margin-top: 0px;
+  }
+
+  .category-box-content .category-box-readmore {
+    position: static;
+    bottom: auto;
+  }
+
+  .category-box-img {
+    width: 30%;
+    background-size: cover;
+    height: 100px;
+    float: left;
+  }
+  
+}

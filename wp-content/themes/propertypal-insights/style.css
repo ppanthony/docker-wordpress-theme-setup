@@ -1,0 +1,24 @@
+/*
+Theme Name: PropertyPal.com Insights
+Description: A simple responsive theme built for PropertyPal.com Insights
+Author: PropertyPal.com
+Author URI: http://www.propertypal.com/
+Version: 1.0
+Tags: responsive, bootstrap
+*/
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/* Styles from PropertyPal.com website */
+@import url(css/blog.css);
+/***************************************/
+
+@import url(css/header.css);
+@import url(css/sidebar.css);
+@import url(css/pagination.css);
+@import url(css/base.css);
+@import url(css/post.css);
+@import url(css/file-not-found.css);
+@import url(css/general.css);
+@import url(css/print.css) print;

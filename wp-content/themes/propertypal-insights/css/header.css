@@ -1,0 +1,249 @@
+/**  Header **/
+.pgheader {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+
+.pgheader h1,
+.pgheader h2 {
+  color: #333;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.pghead-bordered {
+  border-bottom: 1px solid #CCC;
+}
+
+/** Breadcrumbs **/
+.breadcrumbs {
+  padding: 0 1em;
+  line-height: 3;
+  font-size: 0.8em;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+
+/** Default header **/
+.pgheader.pgheader-default {
+  padding: 58px 0;
+}
+
+.pgheader.pgheader-default h1 {
+  text-align: center;
+	line-height: 1;
+	font-size: 2.5em;
+	color: #EE4900;
+}
+
+.pgheader.pgheader-default h2 {
+  text-align: center;
+	text-transform: none;
+	max-width: 775px;
+	margin: 20px auto 0 auto;
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+/** Student Header **/
+.pgheader-student {
+  position: relative;
+}
+
+.pgheader-student .pgheader-content {
+  background: #F2F8F6 url(student/student_homeHeaderBG.jpg) 100% 100% repeat-x scroll;
+  min-height: 195px;
+}
+
+.pgheader-student .pgheader-content hgroup {
+  position: absolute;
+  text-indent: -999999em;
+  z-index: 2;
+  left: -1000px;
+}
+
+.pgheader-student .pgheader-content .pgheader-student-title {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  width: 40%;
+  max-width: 420px;
+  height: auto;
+}
+
+.pgheader-student .pgheader-content .pgheader-student-text {
+  width: 30%;
+  text-align: center;
+  font-size: 1.4em;
+  position: absolute;
+  top: 14%;
+  z-index: 5;
+  right: 22%;
+}
+
+.pgheader-student .pgheader-content .pgheader-student-objects {
+  position: absolute;
+  height: auto;
+  width: 47%;
+  max-width: 417px;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.pgheader-student .pgheader-content h1 {
+  padding: 20px;
+  margin: 0px;
+}
+
+/* Main Nav*/
+.mainnav .mainnav-logo-blog {
+  position: relative;
+  font-size: 0;
+  text-indent: -999999px;
+  background: transparent url(assets/img/pp-logo-no-shadow-330.png) no-repeat scroll 0 0;
+  background-size: 90px 32px;
+  width: 105px;
+  height: 32px;
+  display: inline-block;
+  float: left;
+  top: 15px;
+  left: 13px;
+}
+
+.mainnav .mainnav-backtext {
+  float: left;
+  padding-top: 22px;
+  padding-left: 17px;
+  font-size: 12px;
+}
+
+.mainnav .mainnav-backtext a {
+  color: #fff;
+}
+
+.mainnav .mainnav-backtext a:hover {
+  text-decoration: none;
+  color: #ee4900;
+}
+
+
+/** Agent Header **/
+.agent-head {
+  background-color: #666666;
+  font-size: 12px;
+}
+
+.agent-head .agent-blog-header {
+  margin: 0px auto;
+}
+
+.agent-head .agent-blog-header .author-image {
+  float: left;
+}
+
+.agent-head .agent-title {
+  float: left;
+  margin-left: 20px;
+}
+
+.agent-head .agent-title h3 {
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+  text-transform: none;
+  font-weight: normal;
+  color: #cccccc;
+  font-family: arial;
+}
+
+.agent-head .agent-title h2 {
+  -webkit-font-smoothing: antialiased;
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-family: arial;
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: none;
+}
+
+@media screen and (max-width:768px) {
+
+  /**  Header **/
+  .pgheader h1 {
+    /*font-size:1.5em;*/
+  }
+
+  /** Default header **/
+  .pgheader.pgheader-default h1 {
+    /*margin-top:2.5em;*/
+  }
+
+  /** Student Header **/
+  .pgheader-student {
+    text-align: center;
+    min-height: none;
+    height: auto;
+  }
+
+  .pgheader-student .pgheader-content {
+    background-image: none;
+    min-height: 0;
+    padding: 1em 0;
+  }
+
+  .pgheader-student .pgheader-content .pgheader-student-title {
+    position: static;
+    width: 70%;
+    max-width: none;
+    left: auto;
+    top: auto;
+    margin: 0 auto;
+  }
+
+  .pgheader-student .pgheader-content .pgheader-student-text {
+    position: static;
+    width: auto;
+    max-width: none;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin: 1em auto;
+    font-size: 1.4em;
+  }
+
+  .pgheader-student .pgheader-content .pgheader-student-objects {
+    position: static;
+    width: 70%;
+    max-width: none;
+    right: auto;
+    top: auto;
+    margin: 0 auto;
+  }
+
+  /** Agent Header **/
+  .agent-head {
+    text-align: center;
+  }
+
+  .agent-head .agent-blog-header .author-image {
+    float: none;
+  }
+
+  .agent-head .agent-title {
+    float: none;
+    margin-left: 0;
+  }
+
+}

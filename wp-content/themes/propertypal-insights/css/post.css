@@ -1,0 +1,551 @@
+/** List of Posts **/
+.posts .post {
+  border: 1px solid #DDD;
+}
+
+.posts .post-container {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 50px;
+}
+
+.posts .post-year {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	color: #EE4900;
+	font-size: 2em;
+}
+
+.posts .post-wrapper:not(:first-child):not(:nth-child(2)) {
+	margin-top: 50px;
+}
+
+.posts .post .post-image {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+
+.posts .post .post-imgFill {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: transparent none no-repeat 50% 0%;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 200px;
+}
+
+.posts .post .post-imgFill::before {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	content: '';
+}
+
+.posts .post h1 {
+  text-transform: none;
+	text-align: center;
+	font-size: 1.6em;
+	position: relative;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.posts .post h1::after {
+	content: "";
+	width: 50px;
+	height: 1px;
+	background: #ccc;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.posts .post h1 a {
+	min-height: 85px;
+	text-decoration: none;
+	display: block;
+	transition: all 300ms ease-in-out;
+}
+
+.posts .post h1 a:focus {
+	color: #b8b6b6;
+}
+
+.posts .post .more-link {
+  text-decoration: underline;
+  padding-top: 20px;
+  display: block;
+}
+
+.posts .post .post-details {
+	padding: 25px;
+}
+
+.posts .post .download {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.posts .post .download-btn {
+	padding: 15px;
+	color: #fff;
+	background-color: #EE4900;
+	width: 100%;
+	display: block;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all 300ms ease-in-out;
+}
+
+.posts .post .download-btn:hover {
+	background-color: #b8b6b6;
+}
+
+.pagination {
+	width: 100%;
+}
+
+.lt-ie9 .posts .post img {
+  max-height: 200px;
+}
+
+/** Post Page **/
+.entry {
+  margin-top: 0.5em;
+}
+
+.entry ol li,
+.entry ul li {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.entry h3 {
+  line-height: 160%;
+}
+
+.entry img {
+  margin: 20px 0;
+}
+
+
+/** Share Media Icons **/
+.share-media .share-media-icon {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 0px 10px 10px 0px;
+}
+
+.post .posted {
+	color: #333;
+	font-weight: 700;
+	text-align: center;
+	font-size: 14px;
+}
+
+.post .postInfo {
+  padding: 20px 0px;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  border-top: 1px dashed #DDD;
+  border-bottom: 1px dashed #DDD;
+}
+
+.tumblr {
+  display: block;
+  margin-top: 10px;
+  display: inline-block;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 129px;
+  height: 20px;
+  background: url('http://platform.tumblr.com/v1/share_3.png') top left no-repeat transparent;
+}
+
+#fcbk_share {
+  margin-top: 20px;
+}
+
+.fbx-instance {
+  border: 1px solid #cfcfcf;
+}
+
+.alignleft,
+img.alignleft {
+  margin-right: 1.5em;
+  display: block;
+  float: left;
+  margin-top: 0;
+}
+
+.alignright,
+img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+  margin-top: 0;
+}
+
+.aligncenter,
+img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+  margin-top: 0;
+}
+
+.alignnone,
+img.alignnone {
+  /* not sure about this one */
+}
+
+
+/** Tables **/
+.single-email-to-friend {
+  display: none;
+}
+
+.postComments {
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.single-email-to-friend {
+  padding: 2% 4%;
+  margin: 40px 0px 20px 0px;
+}
+
+.ppblog-singlePost-commentTable {
+  padding: 2% 4%;
+  margin: 20px 0px;
+}
+
+.single-email-to-friend h3,
+.ppblog-singlePost-commentTable h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  padding: 0px 0px 20px 0px;
+}
+
+.single-email-to-friend small,
+.ppblog-singlePost-commentTable small {
+  font-size: 100%;
+}
+
+.single-email-to-friend form,
+.ppblog-singlePost-commentTable form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.single-email-to-friend label,
+.ppblog-singlePost-commentTable label,
+.single-email-to-friend input,
+.ppblog-singlePost-commentTable input,
+.single-email-to-friend textarea,
+.ppblog-singlePost-commentTable textarea {
+  width: 96%;
+  padding: 2%;
+}
+
+.postComments {
+  border-top: 1px dashed #DDDDDD;
+}
+
+.single-email-to-friend,
+.ppblog-singlePost-commentTable {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  background-color: #F0F0F0;
+}
+
+.single-email-to-friend h3,
+.ppblog-singlePost-commentTable h3 {
+  color: #EE4900;
+  border-bottom: 1px dashed #DDDDDD;
+}
+
+.single-email-to-friend small,
+.ppblog-singlePost-commentTable small {
+  color: #333333;
+}
+
+.single-email-to-friend input,
+.ppblog-singlePost-commentTable input,
+.single-email-to-friend textarea,
+.ppblog-singlePost-commentTable textarea {
+  border: 1px solid #DDDDDD;
+}
+
+.single-email-confirm {
+  color: #333333;
+}
+
+.single-email-confirm strong {
+  color: #EE4900;
+}
+
+/** COMMENTS **/
+
+.ppblog-singlePost-commentsWrapper {
+  clear: both;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ppblog-singlePost-commentsWrapper im {
+  display: none;
+}
+
+.ppblog-singlePost-commentsWrapper h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  padding: 0px 0px 20px 0px;
+}
+
+.ppblog-singlePost-commentsWrapper ol {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.ppblog-singlePost-commentsWrapper ol ul {
+  list-style: none;
+}
+
+.ppblog-singlePost-commentsWrapper ol li {
+  padding-bottom: 20px;
+}
+
+.ppblog-singlePost-commentsWrapper ol ul li {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.ppblog-singlePost-commentsWrapper .vcard {
+  font-weight: bold;
+  font-size: 1.1em;
+  font-style: normal !important;
+}
+
+.ppblog-singlePost-commentsWrapper .vcard img {
+  display: none;
+}
+
+.ppblog-singlePost-commentsWrapper .vcard cite {
+  display: block;
+  font-style: normal !important;
+  font-size: 1.1em;
+  width: 100%;
+  clear: both;
+}
+
+.ppblog-singlePost-commentsWrapper .dateTime,
+.ppblog-singlePost-commentsWrapper .reply {
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.ppblog-singlePost-commentsWrapper .reply .pipe {
+  padding: 0px 10px;
+}
+
+.ppblog-singlePost-commentsWrapper {
+  border-bottom: 1px dashed #DDDDDD;
+}
+
+.ppblog-singlePost-commentsWrapper h2 {
+  color: #EE4900;
+  border-bottom: 1px dashed #DDDDDD;
+}
+
+.ppblog-singlePost-commentsWrapper ol li article {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.ppblog-singlePost-commentsWrapper .vcard cite,
+.ppblog-singlePost-commentsWrapper .vcard cite a {
+  color: #333333;
+}
+
+/** WP Caption **/
+.wp-caption img {
+  margin-top: 0px !important;
+}
+
+.wp-caption-text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+  width: auto !important;
+}
+
+.wp-caption .pibfi_pinterest {
+  display: inline !important;
+}
+
+.wp-caption .pibfi_pinterest img {
+  margin-bottom: 0px !important;
+}
+
+.wp-caption .pibfi_pinterest .xc_pin {
+  display: none !important;
+}
+
+
+
+/** Related **/
+.wp_rp_content {
+  clear: both;
+}
+
+.wp_rp_content h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  padding: 0px 0px 20px 0px;
+  color: #EE4900;
+  border-bottom: 1px dashed #DDDDDD;
+}
+
+.wp_rp_content ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.wp_rp_content ul li {
+  padding-bottom: 20px;
+}
+
+.wp_rp_content .rptitle {
+  text-transform: uppercase;
+  font-size: ;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.wp_rp_content .dtm {
+  font-size: 0.9em;
+}
+
+.wp_rp_content .dtm.ppblog-posted {
+  padding: 1%;
+}
+
+.wp_rp_footer {
+  display: none;
+}
+
+@media screen and (min-width: 1235px) {
+	.posts {
+		width: 855px;
+	}
+}
+
+@media screen and (min-width: 1141px) {
+	.posts .post-wrapper:nth-child(odd) {
+		padding-right: 35px;
+	}
+	
+	.posts .post-wrapper:nth-child(even) {
+		padding-left: 35px;
+	}
+
+	.posts {
+		padding-right: 45px;
+	}
+}
+
+@media screen and (max-width: 1140px) {
+	.posts .post .post-details {
+		padding: 15px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.posts .post-wrapper:nth-child(odd) {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	
+	.posts .post-wrapper:nth-child(even) {
+		margin-right: 0;
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px), (max-width: 680px) and (min-width: 536px), (max-width: 365px) {
+	.posts .post .post-details {
+		padding: 10px;
+	}
+
+	.posts .post h1 {
+		font-size: 1.2em;
+	}
+
+	.posts .post h1 a {
+		min-height: 65px;
+	}
+}
+
+@media screen and (max-width: 767px) and (min-width: 536px) {
+	.posts {
+		padding-right: 0;
+    padding-left: 0;
+	}
+
+	.posts .post-year {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.posts .post-wrapper {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 536px) {
+	.posts .post .no-pdf {
+		height: 52px;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 535px) {
+	.posts .post-wrapper:not(:first-child) {
+		margin-top: 15px;
+	}
+
+	.posts .post-wrapper {
+		padding-right: 0px;
+    padding-left: 0px;
+	}
+
+	.posts .post h1 a {
+    max-width: 265px;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,134 @@
+.sbar {
+  border-left: 1px solid #CCC;
+}
+
+.sbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sbar a {
+  color: #666;
+  text-decoration: none;
+}
+
+.sbar a:hover {
+  color: #EE4900;
+}
+
+.sbar .sbar-container {
+  padding-bottom: 1em;
+  height: 100% !important;
+}
+
+.widget {
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
+.widget h3 {
+  margin: 0 0 1em 0;
+  padding: 0.5em 1em;
+  border: none;
+  border-bottom: 1px solid #DDD;
+  color: #ee4900;
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+
+.widget ul li {
+  margin-left: 1.5em;
+}
+
+.widget p {
+  padding: 0 1em;
+}
+
+.widget:first-child {
+  padding-top: 0;
+  padding-bottom: 0.5em;
+}
+
+.widget:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Not sure if these lines work or not */
+.widget_categories ul li.categories ul {
+  width: 95%;
+  padding: 0px 0px 0px 10px;
+}
+
+.widget_categories ul li.categories ul .children {
+  list-style: disc;
+  width: 80%;
+  padding-left: 10%;
+  font-style: italic;
+}
+
+.widget_categoriesr ul li.categories ul .children li {
+  margin-bottom: 0px;
+}
+
+.widget.jetpack_subscription_widget {
+  padding-top: 0;
+}
+
+#jetpack {
+  padding: 10px;
+}
+
+#jetpack .success {
+  background-color: #fbffe6;
+  font-size: 11px;
+  color: #ff4335
+}
+
+.sbar .fb_iframe_widget {
+  display: block !important;
+}
+
+.sbar .widget_twitter_timeline {
+	margin-top: 45px;
+	padding-top: 0;
+	width: 100%;
+	float: left;
+}
+
+.sbar .widget_twitter_timeline .widgettitle {
+	font-size: 1.5em;
+  font-weight: 700;
+  text-transform: none;
+	margin-bottom: 0px;
+	border-bottom: none;
+	padding-left: 0;
+}
+
+.sbar .no-horizontal-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media screen and (min-width: 1235px) {
+	.sbar {
+		width: calc(100% - 855px);
+		padding-right: 0;
+	}
+}
+
+@media screen and (min-width: 1141px) {
+	.sbar {
+		padding-left: 25px;
+	}
+}
+
+@media screen and (max-width:768px) {
+
+  .sbar {
+    min-height: 0;
+  }
+
+}

@@ -1,0 +1,53 @@
+.categories {
+  margin-top: 45px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.categories .categories-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: none;
+  margin-bottom: 0px;
+}
+
+.categories .categories-content {
+  margin-top: 20px;
+}
+
+.categories .categories-name {
+  color: #333;
+  font-weight: 700;
+  transition: color 300ms ease-in-out;
+}
+
+.categories .categories-name:hover {
+  color: #EE4900;
+}
+
+.categories .categories-name .categories-count {
+  font-weight: 400;
+}
+
+.categories .categories-tags {
+  display: block;
+}
+
+.categories .categories-tag {
+  display: inline-block;
+  vertical-align: top;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 11px;
+  border: 1px solid #ccc;
+  padding: 4px 6px;
+  line-height: 1;
+  transition: all 300ms ease-in-out;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+.categories .categories-tag:hover {
+  color: #EE4900;
+  border-color: #EE4900;
+}

@@ -1,0 +1,39 @@
+.ngg-imagebrowser .pic { border:none !important; }
+.ngg-imagebrowser { margin-top:30px; margin-bottom:30px; }
+.ngg-imagebrowser h3 { display:none !important; }
+
+#body {
+	margin-top: 4em;
+}
+
+#article {
+	min-height:700px;
+}
+
+.fa-angle-double-right:before {
+	font-size:12px;
+}
+
+@media screen and (min-width:768px) {
+	/* .row-eq-height {
+		display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	} */
+
+	/* .row-eq-height > [class*="col-"] {
+		display: flex;
+  	flex-direction: column;
+		height: auto !important;
+	} */
+}
+
+@media screen and (max-width:768px) {
+
+	.blog-footer .blog-footer-links {
+		display:block;
+		float:none;
+	}
+
+}
